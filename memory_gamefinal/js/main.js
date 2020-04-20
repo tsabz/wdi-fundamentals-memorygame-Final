@@ -56,6 +56,37 @@ if (cardInPlay[0] === cardInPlay[2]) {
   alert("Sorry, try again.");
 }
 };
-flipCard(0);
-flipCard(2);
- 
+
+
+function createBoard() {
+for (let i = 0; i < cards.length; i++) {
+	let newListItem = document.createElement("images/queen-of-hearts.png");
+	let newListItem = document.createElement("images/queen-of-diamonds.png");
+	let newListItem = document.createElement("images/king-of-hearts.png");
+	let newListItem = document.createElement("images/king-of-diamonds.png");
+    cardElement.setAttribute("src", "images/back.png");
+    cardElement.setAttribute(game-board); 
+	cardElement.addEventListener("click", function()); 
+	cardElement.appendChild(game-board)
+}
+};
+
+
+createBoard();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
